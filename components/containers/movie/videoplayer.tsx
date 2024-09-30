@@ -28,7 +28,7 @@ export default function VideoPlayer({ id }: any) {
   const [loading, setLoading] = useState(false);
 
   const videoSources: Record<VideoSourceKey, string> = {
-    autoembed: `https://player.autoembed.cc/embed/movie/${id}`,
+    autoembed: `https://play.123embed.net/mv/${id}`,
     vidsrcpro: `https://vidsrc.pro/embed/movie/${id}`,
     vidsrc: `https://vidsrc.in/embed/movie/${id}`,
     superembed: `https://multiembed.mov/?video_id=${id}&tmdb=1`,
